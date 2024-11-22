@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#252B4E</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="P1">Player One X</string>
+    <string name="P2">Player Two O</string>
+    <string name="PlayAgainButton">Play Again ?</string>
+    <string name="app_name">XO</string>
+    <string name="homeButton">Return Home Page</string>
+    <string name="homepage">XO Game</string>
+    <string name="names">Enter Your Names !</string>
+    <string name="p1name">Player"'s" one Name</string>
+    <string name="p2name">Player"'s" Two Name</string>
+    <string name="startButton">Start</string>
+    <string name="supmit">Supmit Names !</string>
+    <string name="welcome">Welcome to</string>
+    <style name="Base.Theme.XO" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.XO" parent="Base.Theme.XO"/>
+    <declare-styleable name="XOGameBoard">
+        <attr format="color" name="BoardColor"/>
+        <attr format="color" name="XColor"/>
+        <attr format="color" name="OColor"/>
+        <attr format="color" name="winnigLineColor"/>
+
+    </declare-styleable>
+</resources>
